@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Print Info') {
+            steps {
+                echo "Name: John Doe"
+                echo "Roll No: 123456"
+            }
+        }
+    }
+}
